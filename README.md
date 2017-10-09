@@ -1,2 +1,3 @@
 # svd-adblock-enabler
-Removes the adblock popup dialog on svd.se
+
+Chrome extension that removes the adblock popup dialog on svd.se when visiting with an adblocker.
