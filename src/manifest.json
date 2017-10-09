@@ -1,0 +1,23 @@
+{
+	"manifest_version": 2,
+	"name": "SVD adblock enabler",
+	"short_name": "SVD adblock enabler",
+	"version": "0.1",
+	"description": "Removes the popup dialog when using adblocker on svd.se",
+	"homepage_url": "https://github.com/crash007/svd-adblock-enabler",
+	"author": "crash007",
+	 "content_scripts": [
+		{
+		"matches": ["http://www.svd.se/*","https://www.svd.se/*"],
+		"js":["libs/jquery-3.2.1.min.js", "fixer.js"],
+		 "run_at": "document_end"
+
+		}
+	],
+
+	"icons":
+		{
+//	          "128": "icon128.png"
+		}
+
+}
